@@ -34,6 +34,7 @@ public class test {
 		driver.findElement(By.xpath("//*[@id='next']")).click();
 		driver.findElement(By.id("Passwd")).sendKeys("suraj1310");
 		driver.findElement(By.id("signIn")).click();
+		System.out.println("test is passed");
 		driver.close();
 		driver.quit();
 	}
