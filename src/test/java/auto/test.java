@@ -32,6 +32,8 @@ public class test {
 		//driver.findElement(By.xpath("//*[@id='gmail-sign-in']")).click();
 		driver.findElement(By.xpath("//*[@id='Email']")).sendKeys("suraj@gmail.com");
 		driver.findElement(By.xpath("//*[@id='next']")).click();
+		driver.findElement(By.id("Passwd")).sendKeys("suraj1310");
+		driver.findElement(By.id("signIn")).click();
 		driver.close();
 		driver.quit();
 	}
