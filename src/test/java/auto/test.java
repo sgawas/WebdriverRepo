@@ -2,27 +2,14 @@ package auto;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.BeforeSuite;
+
 import org.testng.annotations.Test;
 
 public class test {
 	
-	@BeforeSuite
-	public void setUp(){
-		
-		System.out.println("this is before suite method");
-	}
 	
-//	public static void main(String[] args) {
-//		
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sgawas\\Desktop\\chromedriver.exe");
-//		WebDriver driver= new ChromeDriver();
-//		driver.get("https://www.google.com/intl/en/mail/help/about.html");
-//		driver.close();
-//
-//	}
 
 
 	@Test
@@ -40,10 +27,6 @@ public class test {
 		driver.quit();
 	}
 	
-//	@AfterSuite
-//	public void tearDown(){
-//		driver.close();
-//		driver.quit();
-//	}
+
 
 }
